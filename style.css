@@ -79,7 +79,7 @@ display: flex;
 
 
 }
-.recipi-box{
+.recipi-box {
     border: 6px ;
     padding: 10px;
     text-align: center;
@@ -91,4 +91,14 @@ display: flex;
 .recipi-text{
     font-size: 15px;
     color: rgb(49, 46, 46);
+}
+.fourth-part{
+    display: flex;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px 4px rgb(185, 179, 178);
+    margin: 40px;
+    
+}
+.followers{
+    width: 33%;
 }
