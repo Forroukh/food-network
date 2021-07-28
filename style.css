@@ -74,10 +74,14 @@ display: flex;
 .third-part{
     margin-top: 40px;
     display: flex;
-    flex-direction: column-reverse;
     padding: 20px;
     
 }
+@media (max-width: 800px) {
+    .third-part {
+      flex-direction: column;
+    }
+  }
 .img{
     height: 300px;
     width: 300px;
