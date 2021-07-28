@@ -1,17 +1,18 @@
 body{
     font-family: 'Heebo', sans-serif;
+    margin-top: 30px;
     
 }
 h1
 {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     margin: 0;
     font-weight: 800;
     color: rgb(65, 58, 58);
 }
 p{
-    font-size: 26px;
+    font-size: 20px;
     text-align: center;
     font-weight: 100;
 
@@ -29,6 +30,10 @@ display: flex;
    width: 40%; 
    margin-right: 90px;
 
+}
+.about-me{
+    overflow: scroll;
+    height: 300px;
 }
 .image1{
     width: 100%;
@@ -55,7 +60,7 @@ display: flex;
 }
 .btn2{
     border: none;
-    font-size: 30px;
+    font-size: 20px;
     color: rgb(8, 8, 8);
    background: linear-gradient(yellow, orange, orange);
    border-radius: 40px;
@@ -69,6 +74,7 @@ display: flex;
 .third-part{
     margin-top: 40px;
     display: flex;
+    flex-direction: column-reverse;
     padding: 20px;
     
 }
